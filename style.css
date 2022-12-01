@@ -1,0 +1,48 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    text-align: center;
+    margin-top: 10rem;
+    background-color: #1f2833;
+    /* background-color: #45A29E;- */
+}
+
+h1 {
+
+    color: #66FCF1;
+    font-size: 5rem;
+}
+
+/* style for to do list */
+#ToDo-Container{
+    margin: 3rem;
+    color: whitesmoke;
+    font-size: 2rem;
+    text-align: start;
+    margin-left: 5rem;
+}
+
+#ToDo-Container:hover{
+    cursor: pointer;
+}
+
+
+/* style pn input & button */
+input, button {
+    margin-top: 10px;
+    font-size: 2rem;
+    border:0.1rem solid black;
+    
+}
+
+/* style on hover */
+input,button:hover {
+    cursor: pointer;
+    background-color: #c6c6d5;
+}
+
